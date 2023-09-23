@@ -1,0 +1,59 @@
+/* universal selector (*) select all the elements on the HTML page */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* The “#” CSS id selector is used to set the style of the given id. */
+#india-scoreboard {
+  background-color: skyblue;
+  width: 23vw;
+  height: 38vh;
+  border-radius: 20px;
+  text-align: center;   
+  display: inline-block;
+  margin: 40px;
+  margin-top: 90px;
+  font-size: xx-large;
+}
+
+#pakistan-scoreboard {
+  background-color: green;
+  width: 23vw;
+  height: 38vh;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 40px;
+  font-size: xx-large;
+}
+
+/* The .class selector to selects elements with a specific class attribute to style them. */
+.ball {
+  width: 37px;
+  height: 37px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 80px;
+  font-size: 10ch;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+section {
+  text-align: center;
+}
+
+.button {
+  width: 65px;
+  margin: 50px 22px;
+}
